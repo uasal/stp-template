@@ -1,0 +1,12 @@
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry]
+name = "stp-example-package"
+version = "0.0.1"
+description = "A short description of the package."
+authors = ["Example Author <author@example.com>"]
+readme = "README.md"
+license = "GPL-3.0-or-later"
+dependencies = ["example>=1.0.0", "dependencies<3.0.0"]
